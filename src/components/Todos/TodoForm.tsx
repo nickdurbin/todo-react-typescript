@@ -18,7 +18,7 @@ const TodoForm: React.FC<AddTodoFormProps> = ({ addTodo }) => {
   }
  
   return (
-    <form >
+    <form>
       <input type="text"
       value={newTodo}
       onChange={handleChange} />
